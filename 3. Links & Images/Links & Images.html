@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Links & Images</title>
+</head>
+
+<body>
+
+  <h2 id="top">Absolute URLs</h2>
+<p><a href="https://www.w3.org/" target="_blank">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp" target="_blank">HTML Images</a></p>
+<p><a href="/css/default.asp" target="_blank">CSS Tutorial</a></p>
+
+  <p>You can reach Michael at:</p>
+
+  <ul>
+    <li>
+      <a href="https://example.com" target="_blank">Website</a>
+    </li>
+    <li>
+      <a href="mailto:m.bluth@example.com" target="_blank">Email</a>
+    </li>
+    <li>
+      <a href="tel:+123456789" target="_blank">Phone</a>
+    </li>
+  </ul>
+
+
+
+  <img class="charset" src="point-normal-Has3xeJVOGw-unsplash.jpg" alt="different shapes" width="130" height="160" />
+
+  <img class="fit-picture" src="./barthelemy-de-mazenod-qGuaRqLpUHw-unsplash.jpg" alt="Seaside" width="130"
+    height="160" />
+
+  <img class="rounded-image" src="./julia-solonina-veGTRucaeVQ-unsplash.jpg" alt="Scenery" width="130" height="160" />
+
+  <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" width="200" height="180" usemap="#work map">
+
+<map name="work map">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+<map name="infographic">
+  <area
+    shape="poly"
+    coords="130,147,200,107,254,219,130,228"
+    href="https://developer.mozilla.org/docs/Web/HTML"
+    target="_blank"
+    alt="HTML" />
+  <area
+    shape="poly"
+    coords="130,147,130,228,6,219,59,107"
+    href="https://developer.mozilla.org/docs/Web/CSS"
+    target="_blank"
+    alt="CSS" />
+  <area
+    shape="poly"
+    coords="130,147,200,107,130,4,59,107"
+    href="https://developer.mozilla.org/docs/Web/JavaScript"
+    target="_blank"
+    alt="JavaScript" />
+</map>
+<img usemap="#infographic" src="./mdn-info2.png" alt="MDN infographic" width="200" height="180" />
+
+<picture>
+  <source srcset="./surfer-240-200.jpg" media="(orientation: portrait)" />
+  <img src="./surfer-240-200.jpg" alt="surfer-240-200" />
+</picture>
+
+<iframe
+  id="inlineFrameExample"
+  title="Inline Frame Example"
+  width="300"
+  height="200"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+</iframe>
+ <br>
+<a href="#top" >bact to top</a>
+
+</body>
+
+</html>

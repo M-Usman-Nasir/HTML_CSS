@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an account - BWT</title>
+</head>
+<body>
+    <h1>Create an account</h1>
+    <p>Please provide all details</p>
+    <form action="/account/login.html" method="get">
+        <div>
+            <h3>Account details</h3>
+            <div>
+              <label for="username">Username</label> 
+              <input id="username" type="text" placeholder="username ..." required name="username"/> 
+            </div>
+            <div>
+                <label for="email">Email</label> 
+                <input id="email" type="email" placeholder="email ..." required name="email"/> 
+              </div>
+            <div>
+                <p>Please enter atleast 8 characters long password</p>
+                <label for="password">Password</label> 
+                <input id="password" type="password" placeholder="password" required name="password"/> 
+            </div>
+            <div>
+                <label for="confirm_password">Confirm Password</label> 
+                <input id="confirm_password" type="password" placeholder="confirm password" required name="confirm_password"/> 
+            </div>
+        </div>
+        <div>
+            <h3>Personal details</h3>
+            <div>
+                <div>
+                    <label for="first_name">First Name</label> 
+                    <input id="first_name" type="text" placeholder="First Name" required name="first_name"/> 
+                </div>
+                <div>
+                    <label for="last_name">Last Name</label> 
+                    <input id="last_name" type="text" placeholder="Last Name" required name="last_name"/> 
+                </div>
+            </div>
+        </div>
+        <button type="submit">Create account</button>
+    </form>
+    <div>
+        <a href="/account/login.html">Already have an account? login</a>
+        <a href="/index.html">Back to home</a>
+    </div>
+</body>
+</html>

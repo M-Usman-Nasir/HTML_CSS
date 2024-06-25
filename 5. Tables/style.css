@@ -1,0 +1,39 @@
+body {
+    background-color: beige;
+    text-align: center;
+    font-size: large;
+}
+
+table {
+    border: 3px solid;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    border-left-style: dashed;
+    border-right-color: blue;
+    border-radius: 8px;
+    border-top-right-radius: 24px;
+
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    border-left-style: dashed;
+    border-right-color: blue;
+    border-radius: 8px;
+    border-top-right-radius: 24px;
+    border-bottom: 9px saddlebrown;
+}
+
+caption {
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+}
+
+tr :nth-child(even) {
+    background-color: chartreuse;
+}
+

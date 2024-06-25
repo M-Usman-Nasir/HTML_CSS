@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+</head>
+<body>
+    <!-- Write the HTML code to create a basic webpage structure including the following elements:
+
+Title: "My Webpage"
+Heading: "Welcome to My Webpage"
+Paragraph: "This is a simple webpage." -->
+        <h1>Welcome to My Webpage</h1>
+        <p>This is a simple webpage.</p>
+
+        <!-- Create an unordered list with three items. Each item should be a link with below requirements:
+1- First link should open in new tab
+(use: https://baitussalam.org/contact)
+2- Second link should open in same tab (use: https://baitussalam.org/)
+3- Third link should open email app (use:  johndoe@example.com) -->
+
+            <ul>
+                <li> <a href="https://baitussalam.org/contact">Apple</a></li>
+                <li> <a href="https://baitussalam.org/">Banana</a></li>
+                <li> <a href="mailto : johndoe@example.com">Melon</a>
+                </li>
+            </ul>
+
+            <!-- Insert an image of a cute animal (cute_animal.jpg) with the alt attribute "Cute Animal" and a width of 300 pixels. -->
+
+            <img src="cute_animals.jpg" alt="Cute Animal" width="300px">
+
+             <!-- Write CSS code to style the <body> element with the following properties:
+
+                Background: green
+                Font: Arial, sans-serif
+                Text: white
+                Padding: 20 pixels -->
+
+                <style>
+                    body {
+                        background: green;
+                        font-family: Arial, sans-serif;
+                        color: white;
+                        padding: 20px;
+                    }
+                </style>
+
+                <!-- Write a CSS selector to target all <h2> elements on the webpage and style them to have a font size of 24 pixels and text color of green. -->
+
+                <h2>Second Heading</h2>
+                    <style>
+                        h2 {
+                            font-size: 24px;
+                            color: green;
+                        }
+                    </style>
+
+                    <!-- Explain the concept of CSS pseudo-classes and provide an example of how :hover pseudo-class can be used to change the style of a link when hovered over. -->
+
+                <a href="http://example.com " target="_blank" rel="noopener noreferrer">Click here</a>
+
+                <style>
+                        a:hover {
+                            color: gold;
+                        }
+                </style>
+
+
+
+                    <!-- Create a flexible layout using Flexbox to display a set of cards.
+
+Requirements:
+
+Design a layout containing three cards, each representing a product. Each card should include an image, title, and description. Ensure the cards are displayed in a row and evenly spaced. Implement a hover effect where the background color of the card changes when hovered over. Utilize Flexbox properties to center the content both vertically and horizontally within each card. -->
+
+<p>Card 01 containing Pencils</p>
+<p>Card 02 containing Pens</p>
+<p>Card 03 containing Scales</p>
+
+<style>
+    p {
+        color: green;
+        display: flex;
+        flex-direction: row;
+        border: 3px saddlebrown;
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        background-color: wheat;
+        background-image: url(https://unsplash.com/photos/a-blurry-image-of-a-multicolored-background-ccnCC9dxu_8);
+        flex-wrap: wrap;
+    }
+</style>
+</body>
+</html>

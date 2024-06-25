@@ -1,0 +1,17 @@
+header
+{   
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cornsilk;
+    font-style: oblique;
+    background-image: url("IMG_0607.JPG");
+    background-position: right top;
+    background-size:auto
+
+}
+
+footer
+{
+    color: chocolate;
+    background-color: burlywood;
+}

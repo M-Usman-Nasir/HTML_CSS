@@ -1,0 +1,18 @@
+body {
+    background-color: bisque;
+
+}
+
+header {
+    color: brown;
+    font-size: xx-large;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+aside {
+    padding: 4px;
+}

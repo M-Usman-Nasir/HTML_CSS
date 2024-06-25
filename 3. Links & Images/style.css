@@ -1,0 +1,40 @@
+body {
+    background-color: antiquewhite;
+    background-image: url(./clay-banks-P-8_RDbfRPw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+a:link {
+    color: green;
+    text-decoration: none;
+    background-color: transparent;
+
+  }
+  
+  a:visited {
+    color: pink;
+    text-decoration: none;
+    background-color: transparent;
+
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: underline;
+    background-color: transparent;
+
+  }
+  
+  a:active {
+    color: yellow;
+    text-decoration: underline;
+    background-color: transparent;
+
+  }
+
+  image {
+    float: left;
+  }

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Practice</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="E:\My Docs\Other Docs\mona-_sans\Mona Sans">
+
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.2.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+    <Style>
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            border: 2px dotted;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items:flex-start;
+            align-content: space-between;
+            height: 100px;
+        }
+
+        body {
+            background-color: #b4c3cb;
+            font-family: 'Mona Sans', sans-serif;
+            height: 100vh;
+        }
+
+        main {
+            flex-grow: 1;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 10px;
+            flex-grow: 1;
+        }
+
+        .rectangle-btn1 {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #081225;
+            color: #dee1e4;
+            border: none;
+            border-radius: 50px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .rectangle-btn1:hover {
+            background-color: #2980b9;
+        }
+
+        .rectangle-btn2 {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f0f3f4;
+            color: #252e3f;
+            border: none;
+            border-radius: 50px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .rectangle-btn2:hover {
+            background-color: #2980b9;
+        }
+
+        aside {
+            background-color: #f0f3f4;
+            border-radius: 15px;
+            border: 1px solid #d6dde1;
+            text-align: center;
+            width: 200px;
+        }
+
+        section {
+            background-color: #ffffff;
+        }
+
+        .search-container {
+            background-color: #f0f3f4;
+            font-family: 'Mona Sans', sans-serif;
+            display: flex;
+            width: 200px;
+            border: 1px solid #f0f3f4;
+            border-radius: 100px;
+            padding: 5px;
+        }
+
+        .search-input {
+            background-color: #f0f3f4;
+            font-family: 'Mona Sans', sans-serif;
+            flex: 1;
+            border: none;
+            outline: none;
+        }
+
+        .search-icon {
+            color: #565c65;
+            padding: 5px;
+        }
+
+        .section-1 {
+            background-color: #ffffff;
+            padding: 15px;
+            color: black;
+        }
+
+        .section-2 {
+            color: #fcfcfc;
+            background-color: #081225;
+            padding: 15px;
+        }
+
+        hr {
+            height: 1.5px;
+            width: 80%;
+            background-color: #adb2b9;
+            border: none;
+            margin: 0 auto;
+        }
+
+        .custom-link {
+            text-decoration: none;
+            color: #646c77;
+        }
+
+        .custom-link2 {
+            list-style: none;
+        }
+
+        .custom-link:hover {
+            text-decoration: none;
+            color: black;
+        }
+
+        .icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        .section-2table {
+            color: blue;
+            background-color: #ffffff;
+        }
+    </Style>
+</head>
+
+<body class="flex-container">
+
+    <aside>
+        <h1>
+            <div class="icon">
+                <i class="fi fi-sr-square-b"></i>
+            </div> BRESS
+        </h1>
+        <hr>
+        <ul>
+            <li class="custom-link2">
+                <a href="#" class="custom-link">Dashboard</a>
+            </li>
+            <li><a href="#" class="custom-link">Projects</a></li>
+            <li><a href="#" class="custom-link">Task list</a></li>
+            <li><a href="#" class="custom-link">Services</a></li>
+            <li><a href="#" class="custom-link">Notifications</a></li>
+            <li><a href="#" class="custom-link">Chat</a></li>
+        </ul>
+    
+
+        <img src="https://www.techgrama.in/wp-content/uploads/2021/06/stylish-dp-for-girls-34.jpg" alt="Profile Picture"
+            width="60" height="60" style="border-radius: 100px;">
+        <h1>Usman Nasir</h1>
+        <p>usmannasir98@gmail.com</p>
+    </aside>
+
+    <main>
+        <header>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search">
+                <div class="search-icon" style="float: left;">
+                    <i class="fas fa-search" style="float: right;"></i>
+                </div>
+            </div>
+            <p>Monday, 6th March</p>
+
+            <a href="#" class="rectangle-btn1"> Card</a>
+
+            <a href="#" class="rectangle-btn2"> List</a>
+        </header>
+
+        <section>
+            <h1>Last tasks
+            </h1>
+            <h5 class="inline-block" style="color: #232c3d;"><b>117 total,</b></h5>
+            <h6 class="inline-block">proceed to resolve them</h6>
+        </section>
+
+        <section class="section-1">
+            <h5>Productivity</h5>
+            <p>01-07 May</p>
+            <ul>
+                <li>Research</li>
+                <li>Design</li>
+            </ul>
+
+            <p>Data updates in every 3 hours</p>
+            <p>Here is your Graph</p>
+
+        </section>
+
+        <section class="section-2">
+            <h5>Projects in progress:</h5>
+            <div class="section-2table">
+                <ul>
+                    <li>Feedback</li>
+                    <li>Bug</li>
+                    <li>Design System</li>
+                </ul>
+                <br>
+                <p>Improves card readability</p>
+                <p>21.03.22</p>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+
+</html>

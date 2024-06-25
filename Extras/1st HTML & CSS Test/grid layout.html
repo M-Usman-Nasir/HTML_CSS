@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid Layout</title>
+</head>
+<body>
+<style>
+  .grid-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .grid-item {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .grid-item:hover img {
+    transform: scale(2);
+  }
+
+  .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .grid-item:hover .caption {
+    opacity: 1;
+  }
+
+  @media only screen and (min-width: 100px), (max-width: 1024px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+  }
+
+  @media only screen and (min-width: 100px), (max-width: 1024px) {
+    .grid-container {
+      grid-template-columns: (auto-fit, minmax(100px, 1fr));
+    }
+  }
+</style>
+
+<div class="grid-container">
+
+  <div class="grid-item">
+    
+    <img src="./DE-BLUE-01.webp" alt="Photo 1">
+    
+    <div class="caption">Caption for Photo 1</div>
+  
+</div>
+  
+<div class="grid-item">
+    
+    <img src="./DE-BLUE-01.webp" alt="Photo 2">
+    
+    <div class="caption">Caption for Photo 2</div>
+  
+</div>
+  
+<div class="grid-item">
+    
+    <img src="./DE-BLUE-01.webp" alt="Photo 3">
+    
+    <div class="caption">Caption for Photo 3</div>
+  
+</div>
+
+</div>
+
+</body>
+</html>
+
+<!-- 
+  screen sizes:
+mobile: 0- 430px
+tablet: 430 - 1024px
+desktop: 1024 onwards;
+ -->

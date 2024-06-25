@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - BWT</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="/assets/imgs/logo.svg" alt="logo" width="100">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/dashboard/profile.html">Profile</a>
+                </li>
+                <li>
+                    <a href="/account/login.html">Logout</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <aside id="side-bar">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./index.html">Dashboard</a>
+                        <a href="./profile.html">Profile</a>
+                        <a href="./settings.html">Settings</a>
+                        <a href="/account/login.html">Logout</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main id="page-content">
+            <header>
+                <h1>Profile page</h1>
+            </header>  
+            <section id="content">
+                <form action="#" method="get">
+                    <div>
+                        <h3>Account details</h3>
+                        <div>
+                          <label for="username">Username</label> 
+                          <input id="username" type="text" placeholder="username ..." required value="dummy_username" disabled name="username"/> 
+                        </div>
+                        <div>
+                            <label for="email">Email</label> 
+                            <input id="email" type="email" placeholder="email ..." required value="user@example.com" name="email"/> 
+                          </div>
+                    </div>
+                    <div>
+                        <h3>Personal details</h3>
+                        <div>
+                            <div>
+                                <label for="first_name">First Name</label> 
+                                <input id="first_name" type="text" placeholder="First Name" required name="first_name"/> 
+                            </div>
+                            <div>
+                                <label for="last_name">Last Name</label> 
+                                <input id="last_name" type="text" placeholder="Last Name" required name="last_name"/> 
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit">Update</button>
+                </form>
+            </section> 
+        </main>
+    </div>
+    <footer>
+        <div id="copyrights">
+            copyrights | <a href="#">terms & conditions</a>
+        </div>
+    </footer>
+</body>
+</html>

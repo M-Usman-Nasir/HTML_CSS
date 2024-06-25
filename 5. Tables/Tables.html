@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tables</title>
+</head>
+
+<body>
+
+    <table border="3">
+        <caption>Table</caption>
+        <thead>
+            <tr>
+                <th>Column1</th>
+                <th colspan="2">Column2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 2</td>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Data 3</td>
+                <td>Data 3</td>
+                <td>Data 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <table border="5">
+        <caption>Table Practice</caption>
+        <thead>
+            <tr>
+                <th scope="col">Persons</th>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+                <th scope="col">Gender</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Zain</td>
+                <td>12</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Zarrar</td>
+                <td>23</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Zaid</td>
+                <td>11</td>
+                <td>Male</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4"> Total 3 Males</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <table border="1">
+        <caption>
+          Superheros and sidekicks
+        </caption>
+        <colgroup>
+          <col />
+          <col span="2"/>
+          <col span="2"/>
+        </colgroup>
+        <tr>
+          <td></td>
+          <th scope="col">Batman</th>
+          <th scope="col">Robin</th>
+          <th scope="col">The Flash</th>
+          <th scope="col">Kid Flash</th>
+        </tr>
+        <tr>
+          <th scope="row">Skill</th>
+          <td>Smarts, strong</td>
+          <td>Dex, acrobat</td>
+          <td>Super speed</td>
+          <td>Super speed</td>
+        </tr>
+      </table>
+</body>
+</html>

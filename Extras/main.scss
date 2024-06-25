@@ -1,0 +1,21 @@
+@use 'base.scss';
+
+@mixin theme-blue{
+    color: $white;
+    background-color: $bwt-green;
+    font-size: $font-medium;
+    padding: $medium;
+}
+
+.link{
+    color: $bwt-green;
+    padding: $small $medium $large $small;
+    margin: $small;
+}
+.card{
+    background-color: $bwt-blue;
+    color: $white;
+}
+body{
+    @include theme-blue()
+}

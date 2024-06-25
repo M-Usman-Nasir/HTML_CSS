@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Media Queries</title>
+    <style>
+        body{
+            display: flex;
+            height: 90vh;
+        }
+        .aside{
+            /* flex-shrink: 0; */
+            border: 1px solid gray;
+            width: 250px;
+            background-color: aliceblue;
+        }
+        .main{
+            border: 1px solid gray;
+            width: 100%;
+            background-color: aqua;
+        }
+        @media (max-width: 300px) {
+            .aside {
+                width: 200px;
+                background-color: yellow;
+            }
+        }
+        @media (max-width: 500px) {
+            .aside {
+                width: 200px;
+                background-color: yellow;
+            }
+        }
+        @media (max-width: 300px) {
+            .main {
+                width: 200px;
+                background-color: bisque;
+            }
+        }
+        @media (max-width: 500px) {
+            .main {
+                width: 200px;
+                background-color: bisque;
+            }
+        }
+        @media print {
+            .aside {
+                display: none;
+            button {
+                display: none;
+            }
+        }
+    }
+    </style>
+</head>
+<body>
+        <div class="aside">Sidebar</div>
+        <div class="main">Page content
+            <button>Submit</button>
+        </div>
+</body>
+</html>

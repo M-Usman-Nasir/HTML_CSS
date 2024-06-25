@@ -1,0 +1,24 @@
+body {
+    background-color: burlywood;
+}
+
+#firstdiv {
+    background: purple;
+    color: white;
+    width: 350px;
+    height: 200px;
+    margin: 50px;
+    border-width: 3px;
+    border-color: aqua;
+    border-style: solid;
+}
+
+#seconddiv {
+    background: pink;
+    width: 350px;
+    height: 200px;
+    margin: 50px;
+    border-width: 3px;
+    border-color: aqua;
+    border-style: solid;
+}

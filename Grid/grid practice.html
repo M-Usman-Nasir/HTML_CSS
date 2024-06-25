@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0.5em;
+        }
+
+        #Header {
+            background-color: lightblue;
+            color: black;
+            height: 6vh;
+            font-size: larger;
+            font-weight: bolder;
+            text-align: center;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #aside {
+            background-color: blueviolet;
+            color: white;
+            width: 20vw;
+            height: 100vh;
+            margin: 1%;
+            font-size: larger;
+
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-grow: 1;
+            flex-shrink: 2;
+            flex-basis: 100px;
+            align-items: start;
+        }
+
+        #top {
+            background-color: rgb(228, 221, 83);
+            padding: 5px;
+            justify-content: center;
+            margin: 1%;
+            height: 10vh;
+            width: 75vw;
+            inline-size: 5%;
+            
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 1;
+            flex-grow: 2;
+            flex-basis: 150px;
+            align-items: center;
+        }
+
+        #content {
+            background-color: antiquewhite;
+            padding: 5px;
+            margin: 1%;
+
+            display: flex;
+            flex-basis: 250px;
+        }
+
+        .total {
+            display: flex;
+            /* display: inline; */
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="Header">Jamia Darul Uloom Karachi</div>
+
+    <div class="total">
+        <div id="aside"> News: <br><br>
+            1.Latest <br><br>
+            2.Old <br><br>
+            3.Very old
+        </div>
+
+        <div id="top">Welcome to our Jamia</div>
+
+        <div id="content"> After the migration to Pakistan, Maulana Mufti Mufti Muhammad Shafi Sahib, may Allah bless
+            him and grant him peace, had made two tasks his goal in life. One is the struggle for the implementation of
+            Islamic Shariat in Pakistan, the other is the establishment of the magnificent Darul Uloom in Karachi.</div>
+    </div>
+</body>
+
+</html>

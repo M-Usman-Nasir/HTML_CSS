@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class & Elements</title>
+    <style>
+
+        h1 {
+            color: red;
+            background-color: aqua;
+            width: 300px;
+            /* display: inline; */
+        
+        }
+
+        p {
+            color: blue;
+            background-color: aqua;
+            /* display: inline; */
+        }
+
+        .quote::before {
+            content: ' " ';
+            font-size: large;
+            color: blueviolet;
+
+        }
+
+        .quote::after {
+            content: ' " ';
+            font-size: large;
+            color: blueviolet;
+
+        }
+
+        h1:hover {
+            color: white;
+            background-color: blue;
+            width: 300px;
+        }
+        
+        p:focus {
+            color: white;
+            background-color: blue;
+            width: 300px;
+        }
+
+        /* p:first-of-type {
+            font-size: 50px;
+        } */
+
+        :not(button) {
+            font-size: 30px;
+        }
+    </style>
+    
+</head>
+        <body>
+            <p class="quote"> Some Contents Here</p>
+            <button tabindex="-1">Button</button>
+            <h1>BWT Course</h1>
+            <div>
+                <p>Paragraph 1</p>
+                <p>Paragraph 2</p>
+                <p>Paragraph 3</p>
+            </div>
+            <p tabindex="1">Professional Software Development Certification</p>
+            <p tabindex="0">Professional Software Development Certification</p>
+            <a href="#"> My Link</a>
+
+        </body>
+</html>

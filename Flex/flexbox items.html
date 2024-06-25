@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox Item Practice</title>
+    <Style>
+        .container {
+            padding: 0.5em;
+            margin: 25vh auto 0;
+            width: 50vw;
+            height: 80vh;
+            background-color: pink;
+
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+
+        }
+
+        .Item {
+            background-color: lightblue;
+            margin: 0.5em;
+        }
+
+        .One {
+            flex-grow: 2;
+            flex-shrink: 1;
+            flex-basis: 250px;
+            align-items: self-start;
+            order: 1;
+        }
+
+        .two {
+            flex-grow: 2;
+            flex-shrink: 1;
+            flex-basis: 250px;
+        }
+
+        .three {
+            flex-grow: 2;
+            flex-shrink: 1;
+            flex-basis: 250px;
+        }
+    </Style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Item One">Flex Item 1</div>
+        <div class="Item two">Flex Item 2</div>
+        <div class="Item three">Flex Item 3</div>
+    </div>
+</body>
+
+</html>

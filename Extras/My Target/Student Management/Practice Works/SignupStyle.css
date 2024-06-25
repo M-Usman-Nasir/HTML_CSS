@@ -1,0 +1,51 @@
+h1
+{
+    color: white;
+    background-color: burlywood;
+
+    font: 200;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: normal;
+    font-weight: bold;
+    font-style: italic;
+
+    text-align:center;
+    letter-spacing: justify;
+    text-decoration: wavy;
+    word-spacing: normal;
+    text-transform: capitalize;
+    text-indent: 0.5cm;
+    line-height: normal;
+
+    background-image: url("IMG_0607.JPG");
+}
+
+#p
+{
+    color: blue;
+    background-color: rgb(229, 206, 176);
+
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: bold;
+
+    text-align: center;
+    letter-spacing: justify;
+    text-decoration: wavy;
+    word-spacing: normal;
+    text-transform: capitalize;
+    text-indent: 0.5cm;
+    line-height: normal;
+}
+
+p
+{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: burlywood;
+    text-align:center
+}
